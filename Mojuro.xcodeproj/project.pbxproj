@@ -3,16 +3,16 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		06AA19D72A6FBC1291522D0D /* Pods_MojuroTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44EC515F842D43C397EC5D02 /* Pods_MojuroTests.framework */; };
+		93A6C2EE22350F942A872CAE /* Pods_MojuroUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F282DB763D787D9BDC29EE0 /* Pods_MojuroUITests.framework */; };
+		D2830B009FF89DB245734C35 /* Pods_Mojuro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81AF4EABC1B7DE4C9DE260F6 /* Pods_Mojuro.framework */; };
+		E26BA36B22AF053F004E710B /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26BA36A22AF053F004E710B /* R.generated.swift */; };
 		E2EA89A122AEF935008B8F61 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EA89A022AEF935008B8F61 /* AppDelegate.swift */; };
-		E2EA89A322AEF935008B8F61 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EA89A222AEF935008B8F61 /* SceneDelegate.swift */; };
-		E2EA89A522AEF935008B8F61 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EA89A422AEF935008B8F61 /* ViewController.swift */; };
-		E2EA89A822AEF935008B8F61 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2EA89A622AEF935008B8F61 /* Main.storyboard */; };
 		E2EA89AA22AEF936008B8F61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2EA89A922AEF936008B8F61 /* Assets.xcassets */; };
-		E2EA89AD22AEF936008B8F61 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2EA89AB22AEF936008B8F61 /* LaunchScreen.storyboard */; };
 		E2EA89B822AEF936008B8F61 /* MojuroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EA89B722AEF936008B8F61 /* MojuroTests.swift */; };
 		E2EA89C322AEF936008B8F61 /* MojuroUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EA89C222AEF936008B8F61 /* MojuroUITests.swift */; };
 /* End PBXBuildFile section */
@@ -35,13 +35,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		25AB6B0B6FEFA30C202D7348 /* Pods-MojuroTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MojuroTests.release.xcconfig"; path = "Target Support Files/Pods-MojuroTests/Pods-MojuroTests.release.xcconfig"; sourceTree = "<group>"; };
+		37EE93F9664193E09FD732B4 /* Pods-MojuroTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MojuroTests.debug.xcconfig"; path = "Target Support Files/Pods-MojuroTests/Pods-MojuroTests.debug.xcconfig"; sourceTree = "<group>"; };
+		44EC515F842D43C397EC5D02 /* Pods_MojuroTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MojuroTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F282DB763D787D9BDC29EE0 /* Pods_MojuroUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MojuroUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		606529624C9C0378F3F33813 /* Pods-Mojuro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mojuro.release.xcconfig"; path = "Target Support Files/Pods-Mojuro/Pods-Mojuro.release.xcconfig"; sourceTree = "<group>"; };
+		730E4962909C15BF6DA98725 /* Pods-MojuroUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MojuroUITests.release.xcconfig"; path = "Target Support Files/Pods-MojuroUITests/Pods-MojuroUITests.release.xcconfig"; sourceTree = "<group>"; };
+		81AF4EABC1B7DE4C9DE260F6 /* Pods_Mojuro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mojuro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8946A039CBCC65B0960F4771 /* Pods-Mojuro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mojuro.debug.xcconfig"; path = "Target Support Files/Pods-Mojuro/Pods-Mojuro.debug.xcconfig"; sourceTree = "<group>"; };
+		C632B1E7CB515D7345082B10 /* Pods-MojuroUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MojuroUITests.debug.xcconfig"; path = "Target Support Files/Pods-MojuroUITests/Pods-MojuroUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E26BA36A22AF053F004E710B /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = "<group>"; };
 		E2EA899D22AEF935008B8F61 /* Mojuro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mojuro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2EA89A022AEF935008B8F61 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E2EA89A222AEF935008B8F61 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E2EA89A422AEF935008B8F61 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E2EA89A722AEF935008B8F61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E2EA89A922AEF936008B8F61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		E2EA89AC22AEF936008B8F61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E2EA89AE22AEF936008B8F61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E2EA89B322AEF936008B8F61 /* MojuroTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MojuroTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2EA89B722AEF936008B8F61 /* MojuroTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MojuroTests.swift; sourceTree = "<group>"; };
@@ -56,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2830B009FF89DB245734C35 /* Pods_Mojuro.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06AA19D72A6FBC1291522D0D /* Pods_MojuroTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +78,70 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93A6C2EE22350F942A872CAE /* Pods_MojuroUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		73935D5E0D26538475C35296 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8946A039CBCC65B0960F4771 /* Pods-Mojuro.debug.xcconfig */,
+				606529624C9C0378F3F33813 /* Pods-Mojuro.release.xcconfig */,
+				37EE93F9664193E09FD732B4 /* Pods-MojuroTests.debug.xcconfig */,
+				25AB6B0B6FEFA30C202D7348 /* Pods-MojuroTests.release.xcconfig */,
+				C632B1E7CB515D7345082B10 /* Pods-MojuroUITests.debug.xcconfig */,
+				730E4962909C15BF6DA98725 /* Pods-MojuroUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D97ACC68B6610B4358EF0E86 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				81AF4EABC1B7DE4C9DE260F6 /* Pods_Mojuro.framework */,
+				44EC515F842D43C397EC5D02 /* Pods_MojuroTests.framework */,
+				5F282DB763D787D9BDC29EE0 /* Pods_MojuroUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E26BA36622AF0412004E710B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E26BA36A22AF053F004E710B /* R.generated.swift */,
+				E26BA36822AF043B004E710B /* Assets */,
+				E26BA36922AF043F004E710B /* Properties */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E26BA36722AF0418004E710B /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				E2EA89A022AEF935008B8F61 /* AppDelegate.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		E26BA36822AF043B004E710B /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				E2EA89A922AEF936008B8F61 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		E26BA36922AF043F004E710B /* Properties */ = {
+			isa = PBXGroup;
+			children = (
+				E2EA89AE22AEF936008B8F61 /* Info.plist */,
+			);
+			path = Properties;
+			sourceTree = "<group>";
+		};
 		E2EA899422AEF935008B8F61 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +149,8 @@
 				E2EA89B622AEF936008B8F61 /* MojuroTests */,
 				E2EA89C122AEF936008B8F61 /* MojuroUITests */,
 				E2EA899E22AEF935008B8F61 /* Products */,
+				73935D5E0D26538475C35296 /* Pods */,
+				D97ACC68B6610B4358EF0E86 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +167,8 @@
 		E2EA899F22AEF935008B8F61 /* Mojuro */ = {
 			isa = PBXGroup;
 			children = (
-				E2EA89A022AEF935008B8F61 /* AppDelegate.swift */,
-				E2EA89A222AEF935008B8F61 /* SceneDelegate.swift */,
-				E2EA89A422AEF935008B8F61 /* ViewController.swift */,
-				E2EA89A622AEF935008B8F61 /* Main.storyboard */,
-				E2EA89A922AEF936008B8F61 /* Assets.xcassets */,
-				E2EA89AB22AEF936008B8F61 /* LaunchScreen.storyboard */,
-				E2EA89AE22AEF936008B8F61 /* Info.plist */,
+				E26BA36722AF0418004E710B /* Sources */,
+				E26BA36622AF0412004E710B /* Resources */,
 			);
 			path = Mojuro;
 			sourceTree = "<group>";
@@ -135,9 +198,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E2EA89C722AEF936008B8F61 /* Build configuration list for PBXNativeTarget "Mojuro" */;
 			buildPhases = (
+				A2AD73E673214036DD87852F /* [CP] Check Pods Manifest.lock */,
+				E26BA36522AF0406004E710B /* R.Swift */,
 				E2EA899922AEF935008B8F61 /* Sources */,
 				E2EA899A22AEF935008B8F61 /* Frameworks */,
 				E2EA899B22AEF935008B8F61 /* Resources */,
+				7F89F6B90EADE02FDD715B7F /* [CP] Embed Pods Frameworks */,
+				E26BA36422AF0404004E710B /* SwiftLint */,
 			);
 			buildRules = (
 			);
@@ -152,9 +219,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E2EA89CA22AEF936008B8F61 /* Build configuration list for PBXNativeTarget "MojuroTests" */;
 			buildPhases = (
+				74EF86300EAA8B4A3646D8D6 /* [CP] Check Pods Manifest.lock */,
 				E2EA89AF22AEF936008B8F61 /* Sources */,
 				E2EA89B022AEF936008B8F61 /* Frameworks */,
 				E2EA89B122AEF936008B8F61 /* Resources */,
+				776E9B56B903CD4018FF0B17 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -170,9 +239,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E2EA89CD22AEF936008B8F61 /* Build configuration list for PBXNativeTarget "MojuroUITests" */;
 			buildPhases = (
+				81216703200610D69540CDBA /* [CP] Check Pods Manifest.lock */,
 				E2EA89BA22AEF936008B8F61 /* Sources */,
 				E2EA89BB22AEF936008B8F61 /* Frameworks */,
 				E2EA89BC22AEF936008B8F61 /* Resources */,
+				12D7C4D98EC5D697C63E2B1B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -232,9 +303,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E2EA89AD22AEF936008B8F61 /* LaunchScreen.storyboard in Resources */,
 				E2EA89AA22AEF936008B8F61 /* Assets.xcassets in Resources */,
-				E2EA89A822AEF935008B8F61 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,14 +323,171 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		12D7C4D98EC5D697C63E2B1B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MojuroUITests/Pods-MojuroUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MojuroUITests/Pods-MojuroUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MojuroUITests/Pods-MojuroUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		74EF86300EAA8B4A3646D8D6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MojuroTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		776E9B56B903CD4018FF0B17 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MojuroTests/Pods-MojuroTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MojuroTests/Pods-MojuroTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MojuroTests/Pods-MojuroTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F89F6B90EADE02FDD715B7F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Mojuro/Pods-Mojuro-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Mojuro/Pods-Mojuro-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Mojuro/Pods-Mojuro-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		81216703200610D69540CDBA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MojuroUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A2AD73E673214036DD87852F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Mojuro-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E26BA36422AF0404004E710B /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/SwiftLint/swiftlint\"\n";
+		};
+		E26BA36522AF0406004E710B /* R.Swift */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$TEMP_DIR/rswift-lastrun",
+			);
+			name = R.Swift;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				$SRCROOT/Mojuro/Resources/R.generated.swift,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT/Mojuro/Resources/R.generated.swift\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E2EA899922AEF935008B8F61 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E2EA89A522AEF935008B8F61 /* ViewController.swift in Sources */,
 				E2EA89A122AEF935008B8F61 /* AppDelegate.swift in Sources */,
-				E2EA89A322AEF935008B8F61 /* SceneDelegate.swift in Sources */,
+				E26BA36B22AF053F004E710B /* R.generated.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,25 +521,6 @@
 			targetProxy = E2EA89BF22AEF936008B8F61 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		E2EA89A622AEF935008B8F61 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E2EA89A722AEF935008B8F61 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		E2EA89AB22AEF936008B8F61 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E2EA89AC22AEF936008B8F61 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		E2EA89C522AEF936008B8F61 /* Debug */ = {
@@ -432,11 +639,12 @@
 		};
 		E2EA89C822AEF936008B8F61 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8946A039CBCC65B0960F4771 /* Pods-Mojuro.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J4RA7TUH8H;
-				INFOPLIST_FILE = Mojuro/Info.plist;
+				INFOPLIST_FILE = Mojuro/Resources/Properties/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -450,11 +658,12 @@
 		};
 		E2EA89C922AEF936008B8F61 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 606529624C9C0378F3F33813 /* Pods-Mojuro.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J4RA7TUH8H;
-				INFOPLIST_FILE = Mojuro/Info.plist;
+				INFOPLIST_FILE = Mojuro/Resources/Properties/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -468,8 +677,9 @@
 		};
 		E2EA89CB22AEF936008B8F61 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37EE93F9664193E09FD732B4 /* Pods-MojuroTests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J4RA7TUH8H;
@@ -489,8 +699,9 @@
 		};
 		E2EA89CC22AEF936008B8F61 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25AB6B0B6FEFA30C202D7348 /* Pods-MojuroTests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J4RA7TUH8H;
@@ -510,8 +721,9 @@
 		};
 		E2EA89CE22AEF936008B8F61 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C632B1E7CB515D7345082B10 /* Pods-MojuroUITests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J4RA7TUH8H;
 				INFOPLIST_FILE = MojuroUITests/Info.plist;
@@ -530,8 +742,9 @@
 		};
 		E2EA89CF22AEF936008B8F61 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 730E4962909C15BF6DA98725 /* Pods-MojuroUITests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J4RA7TUH8H;
 				INFOPLIST_FILE = MojuroUITests/Info.plist;
